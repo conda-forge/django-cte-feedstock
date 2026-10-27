@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: django-cte
-  version: "4.0.0"
+  version: "5.0.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: bb8dd23c19111c1e55c19dc5ffb30abee354c3f57c869baace90131e1463d74d
+  sha256: 0ceaa5ee3ea1f74237026e26c97b7a8d4cd7a22e0a24cffd6bb99f7db48c7522
 
 build:
   number: 0
